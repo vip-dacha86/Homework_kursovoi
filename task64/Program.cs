@@ -12,7 +12,7 @@ void NumberCounter (int number)
 {
     if (number < 0) Console.Write($"{number} не натуральное число");
     if (number == 0) return;
-    Console.Write("{0,6}", number);
+    Console.Write("{0,4}", number);
     NumberCounter (number - 1);
 }
 
